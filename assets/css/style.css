@@ -2,7 +2,7 @@
     --primary: rgb(137, 167, 137);
     --secondary: rgb(182, 255, 182);
     --shadow: 5px 5px 5px grey;
-    --highlight: blue;
+    --highlight: rgb(131, 255, 137);
     --bord: 10px
 }
 
@@ -41,6 +41,7 @@ nav {
 nav a {
     color: #13293d;
     text-decoration: none;
+    font-style: Sans-serif;
     text-align: center;
     border-radius: 15px;
     padding: 8px 8px;
@@ -72,7 +73,6 @@ footer {
 }
 .headt {
     padding-left: 20px;
-    padding-top: 75%;
     text-align: center;
     font-style: Sans-serif;
     font-size: 30px;
@@ -82,13 +82,14 @@ footer {
     background: var(--secondary);
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 
 }
 
 
 .abouttext {
     display: flex;
+    flex-direction: row;
     border-style: solid;
     border-width: var(--bord);
     border-color: var(--primary);
@@ -120,6 +121,7 @@ footer {
     text-align: center;
     font-style: Sans-serif;
     font-size: 30px;
+    margin: 20px;
     padding: 5px;
     border-style: solid;
     border-width: var(--bord);
@@ -130,6 +132,47 @@ footer {
     justify-content: center;
     box-shadow: var(--shadow);
 }
+
+.bigart {
+    padding-left: 20px;
+    margin: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.bigart header {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10px;
+    justify-content: center;
+}
+
+.bigart img {
+    width: 100%
+}
+
+.bigart:hover {
+    box-shadow: inset 0px 0px 8px var(--highlight), 0 0 15px var(--highlight);
+}
+
 
 .art {
     display: flex;
@@ -164,7 +207,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex: 10px;
-    justify-content: left;
+    justify-content: center;
 }
 
 .artstuff p {
