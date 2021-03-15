@@ -55,11 +55,8 @@ nav a:hover {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: row;
-  }
+}
 
 footer {
     text-align: center;
@@ -92,15 +89,16 @@ footer {
 
 .art {
     display: flex;
-    flex: 0 0 100%;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .artstuff {
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex: 0 0 300px;
+    width: 40%;
     border-style: solid;
     border-width: var(--bord);
     border-color: var(--primary);
@@ -177,6 +175,7 @@ footer {
     }
 }
 
+
 @media screen and (min-width: 992px) {
     .art {
         flex: 0 0 25%;
@@ -187,3 +186,8 @@ footer {
         flex-shrink: 1;
     }
 }
+@media screen and (min-width: 992px) {
+    .artstuff {
+      width: 100%;
+    }
+  }
