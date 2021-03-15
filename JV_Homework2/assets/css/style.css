@@ -1,0 +1,181 @@
+:root {
+    --primary: rgb(137, 167, 137);
+    --secondary: rgb(182, 255, 182);
+    --shadow: 5px 5px 5px grey;
+    --highlight: blue;
+    --bord: 10px
+}
+
+header {
+    background-image: url(../images/Bkgrnd_tree45_copy.jpg);
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    flex: 10px;
+    justify-content: left;
+}
+
+header h1 {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+nav {
+    display: flex;
+    flex: 10px;
+    background-color: var(--primary);
+    justify-content: right;
+    padding: 14px;
+}
+
+nav a {
+    color: #13293d;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    padding: 8px 8px;
+    margin: 8px;
+    background-color: var(--secondary);
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+}
+
+nav a:hover {
+    box-shadow: inset 20px 20px 15px var(--highlight), 8 8 20px var(--highlight);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+.about {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.abouttext {
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: var(--shadow);
+    margin: 20px;
+
+}
+
+.abouttext img {
+    width: 25%
+}
+
+.art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.artstuff {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0 0 300px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    padding: 10px;
+    box-shadow: var(--shadow);
+    margin: 20px;
+}
+
+.artstuff header {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10px;
+    justify-content: left;
+}
+
+.artstuff p {
+    text-align: center;
+}
+
+.artstuff img {
+    width: 25%
+}
+
+
+
+.artstuff:hover {
+    box-shadow: inset 0px 0px 8px var(--highlight), 0 0 15px var(--highlight);
+}
+
+.Contact {
+    display: flex;
+    flex: 10px;
+    background-color: var(--primary);
+    justify-content: center;
+    padding: 14px;
+}
+
+.Contact a {
+    color: #13293d;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    padding: 8px 8px;
+    margin: 8px;
+    background-color: var(--secondary);
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+}
+
+.Contact a:hover {
+    box-shadow: inset 0px 0px 8px var(--highlight), 0 0 15px var(--highlight);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .art {
+      flex: 0 0 50%;
+      max-width: 50%;
+      flex-direction: column;
+    }
+    .art:last-child {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .art {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .art:last-child {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+}
