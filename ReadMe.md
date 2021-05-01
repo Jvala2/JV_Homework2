@@ -19,10 +19,15 @@ I am now seeking to enter the private commercial market to expand my work experi
 ## Deployed Projects
 
 [Laugh_Generator](https://nmr-code.github.io/Laugh-Generator/)
+
 [Quick_Quiz](https://jvala2.github.io/Quick-Quiz/)
+
 [Daily-Calendar-App](https://jvala2.github.io/Daily-Calendar-App/)
+
 
 ## You can reach me at:
 [Linkedin](https://www.linkedin.com/in/joseph-valancy-1a855a186/)
+
 [Github](https://github.com/Jvala2)
+
 [Itch.io](https://kni.itch.io/)
