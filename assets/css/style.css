@@ -57,6 +57,7 @@ nav a {
 
 nav a:hover {
     box-shadow: inset 20px 20px 15px var(--highlight), 8 8 20px var(--highlight);
+    background: var(--highlight);
 }
 
 main {
@@ -116,6 +117,32 @@ footer {
     justify-content: center;
     flex: 1 1 100%;
 }
+
+.contactme a {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 30px;
+    padding: 8px 8px;
+    border-style: solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10px;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.contactme a:hover {
+    box-shadow: inset 0px 0px 8px var(--highlight);
+    background: var(--highlight);
+}
+
 
 .bodyt {
     border-style: solid;
@@ -229,7 +256,45 @@ footer {
     width: 100%
 }
 
+.artstuff p {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10px;
+    justify-content: space-evenly;
+}
 
+.artstuff a {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 30px;
+    padding: 8px 8px;
+    border-style: solid;
+    margin: 8px;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10px;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.artstuff a:hover {
+    box-shadow: inset 0px 0px 8px var(--highlight);
+    background: var(--highlight);
+}
 
 .artstuff:hover {
     box-shadow: inset 0px 0px 8px var(--highlight), 0 0 15px var(--highlight);
@@ -257,6 +322,7 @@ footer {
 
 .Contact a:hover {
     box-shadow: inset 0px 0px 8px var(--highlight), 0 0 15px var(--highlight);
+    background: var(--highlight);
 }
 
 
