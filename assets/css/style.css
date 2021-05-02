@@ -125,8 +125,8 @@ footer {
     font-size: 30px;
     padding: 8px 8px;
     border-style: solid;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-width: var(--bord);
     border-color: var(--primary);
     background: var(--secondary);
@@ -387,4 +387,25 @@ footer {
         box-shadow: var(--shadow);
         margin: 20px;
     }
+    .contactme a {
+        padding-left: 20px;
+        text-align: center;
+        font-style: Sans-serif;
+        font-size: 30px;
+        padding: 8px 8px;
+        border-style: solid;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-width: var(--bord);
+        border-color: var(--primary);
+        background: var(--secondary);
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 10px;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+
 }
