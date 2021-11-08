@@ -211,6 +211,22 @@ footer {
     box-shadow: inset 0px 0px 8px var(--highlight), 0 0 15px var(--highlight);
 }
 
+.bigart p {
+    padding-left: 20px;
+    text-align: center;
+    font-style: Sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    border-style: solid;
+    border-width: var(--bord);
+    border-color: var(--primary);
+    background: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10px;
+    justify-content: space-evenly;
+}
+
 
 .art {
     display: flex;
@@ -248,9 +264,6 @@ footer {
     justify-content: center;
 }
 
-.artstuff p {
-    text-align: center;
-}
 
 .artstuff img {
     width: 100%
